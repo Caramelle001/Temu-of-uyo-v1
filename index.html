@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temu Of Uyo | Official Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Temu Of Uyo</div>
+        <input type="text" id="searchBar" placeholder="Search products, sizes, colors...">
+        <button id="loginBtn">Sign in with Google</button>
+<div id="userProfile" style="display:none;">
+    <span id="userName"></span>
+    <button id="logoutBtn">Logout</button>
+</div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" data-category="all">All</a></li>
+            <li><a href="#" data-category="korean-snacks">Korean Snacks</a></li>
+            <li><a href="#" data-category="household">Household</a></li>
+            <li><a href="#" data-category="personal">Personal Items</a></li>
+            <li><a href="#" data-category="furniture">Furniture</a></li>
+        </ul>
+    </nav>
+
+    <main id="product-grid">
+        <!-- Products will appear here dynamically via JavaScript -->
+    </main>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>

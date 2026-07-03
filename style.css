@@ -1,0 +1,61 @@
+/* Color Palette */
+:root {
+    --pink: #FF69B4;
+    --blue: #1E90FF;
+    --gold: #FFD700;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--blue);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--gold);
+}
+
+.logo { font-size: 24px; font-weight: bold; }
+
+#searchBar {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 40%;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    background: white;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    background-color: var(--pink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { background-color: #ff1493; }
